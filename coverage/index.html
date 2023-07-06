@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Coverage report</title>
+    <title>Leaspy - Code coverage report</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="coverage_html.js" defer></script>
@@ -10,8 +10,8 @@
 <body class="indexfile">
 <header>
     <div class="content">
-        <h1>Coverage report:
-            <span class="pc_cov">93%</span>
+        <h1>Leaspy - Code coverage report:
+            <span class="pc_cov">91.62%</span>
         </h1>
         <aside id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -26,6 +26,8 @@
                         <kbd>s</kbd>
                         <kbd>m</kbd>
                         <kbd>x</kbd>
+                        <kbd>b</kbd>
+                        <kbd>p</kbd>
                         <kbd>c</kbd>
                         &nbsp; change column sorting
                     </p>
@@ -45,7 +47,7 @@
         </form>
         <p class="text">
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.7">coverage.py v7.2.7</a>,
-            created at 2023-06-14 19:28 +0000
+            created at 2023-07-06 14:25 +0000
         </p>
     </div>
 </header>
@@ -57,6 +59,8 @@
                 <th aria-sort="none" data-default-sort-order="descending" data-shortcut="s">statements</th>
                 <th aria-sort="none" data-default-sort-order="descending" data-shortcut="m">missing</th>
                 <th aria-sort="none" data-default-sort-order="descending" data-shortcut="x">excluded</th>
+                <th aria-sort="none" data-default-sort-order="descending" data-shortcut="b">branches</th>
+                <th aria-sort="none" data-default-sort-order="descending" data-shortcut="p">partial</th>
                 <th class="right" aria-sort="none" data-shortcut="c">coverage</th>
             </tr>
         </thead>
@@ -66,168 +70,177 @@
                 <td>4</td>
                 <td>0</td>
                 <td>0</td>
-                <td class="right" data-ratio="4 4">100%</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_8f989c85c5cd833d_config_py.html">src/uwtools/config.py</a></td>
-                <td>281</td>
+                <td>279</td>
                 <td>14</td>
-                <td>0</td>
-                <td class="right" data-ratio="267 281">95%</td>
-            </tr>
-            <tr class="file">
-                <td class="name left"><a href="d_b3f3dc7a0c3d97be___init___py.html">src/uwtools/drivers/__init__.py</a></td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td class="right" data-ratio="0 0">100%</td>
-            </tr>
-            <tr class="file">
-                <td class="name left"><a href="d_b3f3dc7a0c3d97be_driver_py.html">src/uwtools/drivers/driver.py</a></td>
                 <td>2</td>
-                <td>0</td>
-                <td>19</td>
-                <td class="right" data-ratio="2 2">100%</td>
-            </tr>
-            <tr class="file">
-                <td class="name left"><a href="d_b3f3dc7a0c3d97be_forecast_py.html">src/uwtools/drivers/forecast.py</a></td>
+                <td>118</td>
                 <td>9</td>
-                <td>0</td>
-                <td>72</td>
-                <td class="right" data-ratio="9 9">100%</td>
+                <td class="right" data-ratio="372 397">93.70%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_8f989c85c5cd833d_exceptions_py.html">src/uwtools/exceptions.py</a></td>
                 <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td class="right" data-ratio="1 1">100%</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_e9d6eb5c537ba826___init___py.html">src/uwtools/files/__init__.py</a></td>
                 <td>2</td>
                 <td>0</td>
                 <td>0</td>
-                <td class="right" data-ratio="2 2">100%</td>
-            </tr>
-            <tr class="file">
-                <td class="name left"><a href="d_74feba21c0c82a85___init___py.html">src/uwtools/files/gateway/__init__.py</a></td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td class="right" data-ratio="0 0">100%</td>
+                <td class="right" data-ratio="2 2">100.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_74feba21c0c82a85_s3_py.html">src/uwtools/files/gateway/s3.py</a></td>
                 <td>24</td>
                 <td>14</td>
                 <td>0</td>
-                <td class="right" data-ratio="10 24">42%</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 26">38.46%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_74feba21c0c82a85_unix_py.html">src/uwtools/files/gateway/unix.py</a></td>
                 <td>39</td>
                 <td>2</td>
                 <td>0</td>
-                <td class="right" data-ratio="37 39">95%</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="47 49">95.92%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_332d6b1e9dc9e42e___init___py.html">src/uwtools/files/interface/__init__.py</a></td>
                 <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td class="right" data-ratio="1 1">100%</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_332d6b1e9dc9e42e_file_manager_py.html">src/uwtools/files/interface/file_manager.py</a></td>
                 <td>21</td>
                 <td>1</td>
                 <td>0</td>
-                <td class="right" data-ratio="20 21">95%</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="24 25">96.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_4950c4abea6a50ef___init___py.html">src/uwtools/files/model/__init__.py</a></td>
                 <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td class="right" data-ratio="1 1">100%</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_4950c4abea6a50ef_file_py.html">src/uwtools/files/model/file.py</a></td>
                 <td>67</td>
                 <td>5</td>
                 <td>0</td>
-                <td class="right" data-ratio="62 67">93%</td>
+                <td>13</td>
+                <td>2</td>
+                <td class="right" data-ratio="73 80">91.25%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_8f989c85c5cd833d_j2template_py.html">src/uwtools/j2template.py</a></td>
-                <td>44</td>
+                <td>43</td>
                 <td>0</td>
+                <td>2</td>
+                <td>4</td>
                 <td>0</td>
-                <td class="right" data-ratio="44 44">100%</td>
+                <td class="right" data-ratio="47 47">100.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_8f989c85c5cd833d_logger_py.html">src/uwtools/logger.py</a></td>
-                <td>88</td>
+                <td>85</td>
                 <td>7</td>
-                <td>0</td>
-                <td class="right" data-ratio="81 88">92%</td>
+                <td>5</td>
+                <td>10</td>
+                <td>3</td>
+                <td class="right" data-ratio="83 95">87.37%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_8f989c85c5cd833d_scheduler_py.html">src/uwtools/scheduler.py</a></td>
                 <td>140</td>
                 <td>2</td>
                 <td>0</td>
-                <td class="right" data-ratio="138 140">99%</td>
+                <td>36</td>
+                <td>2</td>
+                <td class="right" data-ratio="172 176">97.73%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_673929fde86c24bc___init___py.html">src/uwtools/utils/__init__.py</a></td>
                 <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td class="right" data-ratio="1 1">100%</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_673929fde86c24bc_cli_helpers_py.html">src/uwtools/utils/cli_helpers.py</a></td>
                 <td>36</td>
                 <td>2</td>
                 <td>0</td>
-                <td class="right" data-ratio="34 36">94%</td>
+                <td>14</td>
+                <td>1</td>
+                <td class="right" data-ratio="47 50">94.00%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_673929fde86c24bc_file_helpers_py.html">src/uwtools/utils/file_helpers.py</a></td>
                 <td>35</td>
                 <td>14</td>
                 <td>0</td>
-                <td class="right" data-ratio="21 35">60%</td>
+                <td>6</td>
+                <td>1</td>
+                <td class="right" data-ratio="26 41">63.41%</td>
             </tr>
             <tr class="file">
                 <td class="name left"><a href="d_673929fde86c24bc_memory_py.html">src/uwtools/utils/memory.py</a></td>
-                <td>25</td>
+                <td>24</td>
                 <td>0</td>
-                <td>0</td>
-                <td class="right" data-ratio="25 25">100%</td>
+                <td>1</td>
+                <td>6</td>
+                <td>1</td>
+                <td class="right" data-ratio="29 30">96.67%</td>
             </tr>
         </tbody>
         <tfoot>
             <tr class="total">
                 <td class="name left">Total</td>
-                <td>821</td>
+                <td>803</td>
                 <td>61</td>
-                <td>91</td>
-                <td class="right" data-ratio="760 821">93%</td>
+                <td>10</td>
+                <td>223</td>
+                <td>19</td>
+                <td class="right" data-ratio="940 1026">91.62%</td>
             </tr>
         </tfoot>
     </table>
     <p id="no_rows">
         No items found using the specified filter.
     </p>
+        <p>1 empty file skipped.</p>
 </main>
 <footer>
     <div class="content">
         <p>
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.7">coverage.py v7.2.7</a>,
-            created at 2023-06-14 19:28 +0000
+            created at 2023-07-06 14:25 +0000
         </p>
     </div>
     <aside class="hidden">
